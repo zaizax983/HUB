@@ -1,5 +1,4 @@
 game:GetService("Players").LocalPlayer:Kick("Script has been changed , Join the discord for new one.")
-wait(2)
 
 local Settings = {
             InviteCode = "EAasK6nBMr" -- the code at the end of the invite here
