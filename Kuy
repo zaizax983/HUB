@@ -1,0 +1,118 @@
+while true do
+  task.wait(1)
+local args = {
+    [1] = {
+        ["\t"] = {
+            [1] = {
+                [1] = "Vote_1",
+                [2] = true,
+                ["n"] = 2
+            }
+        }
+    },
+    [2] = {}
+}
+
+game:GetService("ReplicatedStorage").ReliableRedEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        ["Init"] = function()end --[[Init]]
+    }
+}
+
+game:GetService("ReplicatedStorage").EventsAndFunctions.RemoteFunctions.GetData:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "53335",
+    [2] = CFrame.new(15.477903366088867, -52.30906677246094, -47.704532623291016) * CFrame.Angles(-0, 0, -0),
+    [3] = 0
+}
+
+game:GetService("ReplicatedStorage").EventsAndFunctions.RemoteFunctions.PlaceUnit:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "23299",
+    [2] = CFrame.new(13.118697166442871, -52.15906524658203, -31.226638793945312) * CFrame.Angles(-0, 0, -0),
+    [3] = 0
+}
+
+game:GetService("ReplicatedStorage").EventsAndFunctions.RemoteFunctions.PlaceUnit:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "23299",
+    [2] = CFrame.new(10.051995277404785, -52.15906524658203, -31.31005859375) * CFrame.Angles(-0, 0, -0),
+    [3] = 0
+}
+
+game:GetService("ReplicatedStorage").EventsAndFunctions.RemoteFunctions.PlaceUnit:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Upgrade",
+    [2] = workspace.Units.Mirajane
+}
+
+game:GetService("ReplicatedStorage").EventsAndFunctions.RemoteFunctions.InteractUnit:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "81608",
+    [2] = CFrame.new(-4.245730400085449, -52.15906524658203, -40.095367431640625) * CFrame.Angles(-0, 0, -0),
+    [3] = 0
+}
+
+game:GetService("ReplicatedStorage").EventsAndFunctions.RemoteFunctions.PlaceUnit:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "49147",
+    [2] = CFrame.new(-0.4265763759613037, -52.15906524658203, -66.01765441894531) * CFrame.Angles(-0, 0, -0),
+    [3] = 0
+}
+
+game:GetService("ReplicatedStorage").EventsAndFunctions.RemoteFunctions.PlaceUnit:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "53335",
+    [2] = CFrame.new(11.745576858520508, -52.30906677246094, -44.86017990112305) * CFrame.Angles(-0, 0, -0),
+    [3] = 0
+}
+
+game:GetService("ReplicatedStorage").EventsAndFunctions.RemoteFunctions.PlaceUnit:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "49147",
+    [2] = CFrame.new(3.238563299179077, -52.15906524658203, -66.07435607910156) * CFrame.Angles(-0, 0, -0),
+    [3] = 0
+}
+
+game:GetService("ReplicatedStorage").EventsAndFunctions.RemoteFunctions.PlaceUnit:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "49147",
+    [2] = CFrame.new(6.495790481567383, -52.15906524658203, -65.57154846191406) * CFrame.Angles(-0, 0, -0),
+    [3] = 0
+}
+
+game:GetService("ReplicatedStorage").EventsAndFunctions.RemoteFunctions.PlaceUnit:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "49147",
+    [2] = CFrame.new(9.911149024963379, -52.15906524658203, -65.50135803222656) * CFrame.Angles(-0, 0, -0),
+    [3] = 0
+}
+
+game:GetService("ReplicatedStorage").EventsAndFunctions.RemoteFunctions.PlaceUnit:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Upgrade",
+    [2] = workspace.Units.Mirajane
+}
+
+local args = {
+    [1] = "Upgrade",
+    [2] = workspace.Units.Death13
+}
+
+game:GetService("ReplicatedStorage").EventsAndFunctions.RemoteFunctions.InteractUnit:InvokeServer(unpack(args))
+
+
+end
